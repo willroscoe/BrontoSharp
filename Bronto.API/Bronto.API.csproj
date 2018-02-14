@@ -149,6 +149,9 @@
     <None Include="Service References\BrontoService\Bronto.API.BrontoService.addMessagesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\BrontoService\Bronto.API.BrontoService.addOrUpdateContactsIncrementalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\BrontoService\Bronto.API.BrontoService.addOrUpdateContactsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -276,6 +279,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\BrontoService\Bronto.API.BrontoService.loginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BrontoService\Bronto.API.BrontoService.logoutResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\BrontoService\Bronto.API.BrontoService.mailListObject.datasource">
