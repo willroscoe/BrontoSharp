@@ -56,12 +56,14 @@
     <Compile Include="BrontoResult.cs" />
     <Compile Include="BrontoSoapClient.cs" />
     <Compile Include="Contacts.cs" />
+    <Compile Include="Deliveries.cs" />
     <Compile Include="Extensions\DateTimeExtensions.cs" />
     <Compile Include="Extensions\ReadContactsExtensions.cs" />
     <Compile Include="Extensions\FieldObjectExtensions.cs" />
     <Compile Include="Extensions\MailListExtensions.cs" />
     <Compile Include="LoginSession.cs" />
     <Compile Include="MailLists.cs" />
+    <Compile Include="Messages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>

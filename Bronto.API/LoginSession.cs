@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Bronto.API.api;
 using sessionHeader = Bronto.API.BrontoService.sessionHeader;
+using System.Net;
 
 namespace Bronto.API
 {
@@ -26,8 +27,10 @@ namespace Bronto.API
         /// <returns>The Login session</returns>
         public static LoginSession Create(string ApiToken)
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
             using (BrontoSoapPortTypeClient client = BrontoSoapClient.Create())
             {
+
                 LoginSession login = new LoginSession()
                 {
                     SessionId = client.login(ApiToken)

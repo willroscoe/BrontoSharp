@@ -36,6 +36,7 @@ namespace Bronto.API
             return Create(new BasicHttpsBinding(BasicHttpsSecurityMode.Transport) {MaxReceivedMessageSize = Int32.MaxValue, ReceiveTimeout = Timeout ?? DefaultTimeout, SendTimeout = Timeout ?? DefaultTimeout }, new EndpointAddress(BrontoApiDefaultUrl));
         }
 
+        
         /// <summary>
         /// Returns an instance of the Bronto SOAP client with the specified binding and endpoint address
         /// </summary>

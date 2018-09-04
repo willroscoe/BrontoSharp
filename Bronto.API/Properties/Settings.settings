@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Bronto_API_api_BrontoSoapApiImplService" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">https://api.bronto.com/v4</Value>
+      <Value Profile="(Default)">https://api.bronto.com/v4/</Value>
     </Setting>
   </Settings>
 </SettingsFile>
