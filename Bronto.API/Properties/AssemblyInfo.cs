@@ -34,3 +34,8 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+// For installing the dll into GAC on main server
+// https://microsoft-ssis.blogspot.com/2011/05/referencing-custom-assembly-inside.html
+[assembly: AssemblyDelaySign(false)]
+[assembly: AssemblyKeyFile("PublicPrivateKeyFile.snk")]
