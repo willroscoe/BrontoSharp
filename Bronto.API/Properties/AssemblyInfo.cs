@@ -37,5 +37,5 @@ using System.Runtime.InteropServices;
 
 // For installing the dll into GAC on main server
 // https://microsoft-ssis.blogspot.com/2011/05/referencing-custom-assembly-inside.html
-[assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyFile("PublicPrivateKeyFile.snk")]
+//[assembly: AssemblyDelaySign(false)]
+//[assembly: AssemblyKeyFile("PublicPrivateKeyFile.snk")]
